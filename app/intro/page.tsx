@@ -25,7 +25,7 @@ export default function Intro() {
       <div className="flex justify-start text-center">
         <div className="absolute -mt-4 left-[18rem] 2xl:left-[32rem] 2xl:-mt-12">
           <Image
-            src="/images/ls.jpg"
+            src="/images/ls.png"
             alt="batman"
             width="300"
             height="300"
@@ -66,11 +66,10 @@ export default function Intro() {
       </div>
       <div className="text-center ">
         <p className="indent-36 mb-2 px-24 pt-28  text-[1rem] font-light !leading-[1.5] 2xl:-mt-8 lg:indent-52">
-          ss
+          Turning visions into reality through code, I thrive on building
+          impactful and scalable applications.
         </p>
-        <p className="-mt-8 px-4 pt-8  text-[1rem] font-light !leading-[1.5] 2xl:-mt-8 lg:-indent-28 ">
-          crafting practical and impactful applications.
-        </p>
+        <p className="-mt-8 px-4 pt-8  text-[1rem] font-light !leading-[1.5] 2xl:-mt-8 lg:-indent-28 "></p>
       </div>
 
       <div
