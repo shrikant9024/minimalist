@@ -6,14 +6,14 @@ import { motion } from "framer-motion";
 export default function Projects() {
   return (
     <motion.section
-      className="-mt-28  max-w-[60rem] "
+      className="-mt-10  max-w-[20rem] md:max-w-[60rem] md:mt-20 md:m-auto 2xl:mt-44"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{
         delay: 0.1,
       }}
     >
-      <div className="grid  mt-24 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="grid  mb-10  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 ">
         {projectsData.map((project, index) => (
           <div key={index}>
             <Project {...project} />

@@ -7,7 +7,7 @@ import { faSpotify } from "@fortawesome/free-brands-svg-icons";
 export default function About() {
   return (
     <motion.section
-      className="mb-28 max-w-[45rem] mt-14 flex flex-col text-left leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-10 -mt-22 max-w-[20rem]  flex flex-col text-left md:max-w-[45rem] md:items-center md:justify-center  scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{
@@ -18,6 +18,7 @@ export default function About() {
         I'm <span className="font-semibold">Shrikant Ramani</span>, a passionate
         full-stack developer specializing in the{" "}
         <span className="font-semibold">MERN</span> stack.
+        <br />
         <br />
         <span>
           Graduated in Information Technology from Gl Bajaj Institute of
@@ -38,7 +39,7 @@ export default function About() {
         <span className="font-medium">learning new things </span>.
         <span>
           {" "}
-          In case you want to share a Spotify playlist
+          In case you want to share a Spotify playlist.
           <a
             href="https://open.spotify.com/user/smf3syz1xuvwhxymk5vvgp2gd"
             target="_blank"

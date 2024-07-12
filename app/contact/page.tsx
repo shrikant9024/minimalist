@@ -19,7 +19,7 @@ function Contact() {
     }),
   };
   return (
-    <section className=" -mt-[26rem]">
+    <section className=" -mt-[26rem] max-w-[20rem] md:max-w-[40rem]">
       <motion.p
         className=""
         variants={fadeInAnimation}

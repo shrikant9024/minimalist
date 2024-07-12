@@ -15,15 +15,15 @@ import { motion } from "framer-motion";
 export default function Intro() {
   return (
     <motion.section
-      className=" mb-10 -mt-[20rem] max-w-[75rem] "
+      className="  -mt-[20rem] max-w-[75rem]   "
       initial={{ opacity: 0, y: 0 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{
         delay: 0.1,
       }}
     >
-      <div className="flex justify-start text-center">
-        <div className="absolute -mt-4 left-[18rem] 2xl:left-[32rem] 2xl:-mt-12">
+      <div className="flex flex-col items-center sm:flex-row sm:items-start justify-center sm:justify-start text-center sm:text-left ">
+        <div className="sm:absolute sm:-mt-12   2xl:left-[32rem] 2xl:-mt-12  md:absolute md:left-[20rem] md:top-[16rem]">
           <Image
             src="/images/ls.png"
             alt="batman"
@@ -36,7 +36,7 @@ export default function Intro() {
           <p className="indent-0 pt-6 text-3xl font-reenie-beanie">
             Shrikant Ramani
           </p>
-          <p className="mt-2 -indent-4 font-light text-sm">
+          <p className="mt-2 -indent-4 font-light text-sm md:mx-8 md:mb-2">
             Fullstack Developer
           </p>
           <div className="flex">
@@ -64,12 +64,11 @@ export default function Intro() {
 
         <p></p>
       </div>
-      <div className="text-center ">
-        <p className="indent-36 mb-2 px-24 pt-28  text-[1rem] font-light !leading-[1.5] 2xl:-mt-8 lg:indent-52">
+      <div className="text-center max-w-[400rem]  ">
+        <p className="mb-2 px-4 pt-4 text-[1rem] font-light 3xl:text-yellow-900  md:mt-24 md:indent-[20rem]">
           Turning visions into reality through code, I thrive on building
           impactful and scalable applications.
         </p>
-        <p className="-mt-8 px-4 pt-8  text-[1rem] font-light !leading-[1.5] 2xl:-mt-8 lg:-indent-28 "></p>
       </div>
 
       <div
@@ -78,7 +77,7 @@ export default function Intro() {
         // className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 py-10"
       >
         <a
-          className="group bg-neutral-500 text-neutral-950 px-4 py-2 flex items-center justify-center gap-2 rounded-lg outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer"
+          className="group bg-neutral-500 text-neutral-950 px-4 py-2 flex items-center justify-center gap-2 rounded-lg outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer md:mx-20"
           href="/CV.pdf"
           download
         >

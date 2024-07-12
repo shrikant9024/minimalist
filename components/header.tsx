@@ -32,7 +32,7 @@ export default function Header() {
 
   return (
     <motion.nav
-      className="fixed top-1/4 left-1/2 h-12 -translate-x-1/2 py-2 sm:top-1/4 sm:h-[initial] sm:py-0"
+      className="fixed top-[2rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-1/4 sm:h-[initial] sm:py-0 2xl:-mx-12 md:-mx-12"
       initial={{ opacity: 0, x: 100, y: 0 }}
       animate={{ opacity: 1, x: -160, y: 0 }}
       transition={{
