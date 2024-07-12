@@ -23,7 +23,7 @@ export default function Intro() {
       }}
     >
       <div className="flex flex-col items-center sm:flex-row sm:items-start justify-center sm:justify-start text-center sm:text-left ">
-        <div className="sm:absolute sm:-mt-12   2xl:left-[32rem] 2xl:-mt-12  md:absolute md:left-[20rem] md:top-[16rem]">
+        <div className="sm:absolute items-center justify-center sm:-mt-12   2xl:left-[32rem] 2xl:-mt-12  md:absolute md:left-[20rem] md:top-[16rem] text-center">
           <Image
             src="/images/ls.png"
             alt="batman"
@@ -31,7 +31,7 @@ export default function Intro() {
             height="300"
             quality="95"
             priority={true}
-            className="h-36 w-36 object-cover rounded-full"
+            className="h-36 w-36 object-cover rounded-full mx-auto"
           />
           <p className="indent-0 pt-6 text-3xl font-reenie-beanie">
             Shrikant Ramani
